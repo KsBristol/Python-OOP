@@ -31,7 +31,7 @@ Sample Output:
 3
 """
 
-здесь объявите класс TriangleChecker
+
 class TriangleChecker:
     def __init__(self, a, b, c):
         """
@@ -71,8 +71,7 @@ class TriangleChecker:
 
 a, b, c = map(int, input().split())  # эту строчку не менять
 
-# здесь создайте экземпляр tr класса TriangleChecker и
-# вызовите метод is_triangle() с выводом информации на экран
+
 
 tr = TriangleChecker(a, b, c)
 print(tr.is_triangle())
